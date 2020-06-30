@@ -1,0 +1,171 @@
+.mainstyling{
+	background-color:#556b29;
+	text-align:center; 
+	font-size: 25px;
+}
+
+ @media(max-width: 480px){
+	 .mainstyling {
+		 background-color:#0C2D48;
+	 }
+ }
+.heading{
+	font-family: times new roman; 
+	color: white; 
+	font-size: 52px; 
+	text-align: center;
+}
+.font{
+	font-family: times new roman; 
+	color: white; 
+	font-size: 25px; 
+	text-align: left; 
+	margin-right: 25px;
+}
+.questions{
+color: white;
+font-size:30px;
+font-family:times new roman;
+text-align: left;
+}
+
+.answers{
+color: #333;
+font-size:25px;
+font-family:times new roman;
+text-align: left;
+}
+
+@media(max-width: 480px){
+	 .answers {
+		 color:white;
+	 }
+ }
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 50%;
+  color:white;
+  
+}
+
+td, th {
+  border: 3px solid  #333;
+  text-align: left;
+  padding: 12px;
+}
+
+tr:nth-child(even) {
+  background-color:  #b7410e;
+}
+
+.cocurricular{
+	
+		font-family: times new roman;
+		font-size: 25px;
+		color: white; 
+		text-align: center;
+}
+.writing{
+		 padding-top:140px;
+}
+.mun{
+		 padding-top:150px;
+	 }
+.theatre {
+		 padding-top:130px;
+	 }
+	 
+.menubar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.menubar a {
+  float: center;
+  color: white;
+  text-align: center;
+  padding: 65px;
+  text-decoration: none;
+  font-size: 20px; 
+}
+
+ @media(max-width: 480px){
+	 .menubar {
+		float: center;
+		color: white;
+		text-align: center;
+		text-decoration: none;
+		font-size: 5px; 
+		padding-right: 50px;
+		padding-left: 50px;
+		padding:10px;
+	 }
+ }
+
+.menubar a:hover {
+  background-color: #b7410e;
+  color: white;
+}
+
+.menubar a.active {
+  background-color: #b7410e;
+  color: white;
+}
+ 
+ .pictures{
+
+	float:left;
+	margin-right:25px;
+	margin-left:45px;
+	}
+	
+ #popOverBox {
+     background: #b7410e;
+     font-family: serif;
+	 float:center;
+	 margin-right: 35px;
+	 margin-top:25px;
+ }
+.container-fluid {
+
+  border: 2px solid #333;
+  text-align: left;
+  width: 50%
+  
+}
+.row{
+
+	color:white;
+}
+ .col-md-6 {
+	border: 2px solid #333;
+	color:white;
+}
+
+.design{
+	background: #b7410e;
+	font-weight: bold;
+}
+.images{
+height:400px;
+}
+#images2{
+	height:350px;
+}
+
+.extra{
+	font-family: times new roman;
+	color: white;
+	font-size: 25px;
+	text-align: center;
+	margin-right: 30px;
+	margin-left:30px;
+}
+
+
+
+
+
+
+	

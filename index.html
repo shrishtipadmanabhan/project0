@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My Webpage</title>
+		<link rel="stylesheet" type="text/css" href="mystylesheet.css"/>
+		<link rel="stylesheet" type="text/scss" href="mystylesheet.scss"/>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+		<script>
+				$(document).ready(function(){
+				$('[data-toggle="popover"]').popover();   
+				});
+		</script>
+   </head>
+   <body class="mainstyling">
+		<div class="menubar">
+			<a href="#index">Home</a>
+			<a href="academic.html">Academic Achievements</a>
+			<a href="cocurricular.html">Co-Curriculars</a>
+			<a href="extra.html">Extra Curriculars</a>
+			<a href="faq.html">FAQ's</a>
+		</div>
+		<h1 class="heading">Introduction</h1>
+			<img src= "lasttry.jpg" height="500px" width="420px" style="float:left; margin-right:25px;">
+			<h3 class="font"> Hello there, my name is Shrishti Padmanabhan and I was born in Greenville, South Carolina in 2001. As a child, I was always deeply interested in art forms such as classical dance, classical music and theatre.</h3>
+			<br>
+			<h3 class="font">Upon moving to india in 2007, I had the rare priviledge of experiencing my culture firsthand and being trained by some of the best artists in their respective fields. During my school years at CHSV, I actively participated in cultural events and co-curricular activities.</h3>
+			<br>
+			<h3 class="font">I was the head of the "World Press" committee in my school's Model United Nations and won 2nd place in the ISC regional creative writing competition. I am currently a Computer Science and Engineering student at the College of Engineering, Guindy, where I hope to carve a distint niche in my chosen field.</h3>
+			<button  id="popOverBox" type="button" class="btn btn-secondary" data-container="body" data-toggle="popover" data-placement="right" data-content="You can email me at spadmanabhan@gmail.com! :)">
+				Contact Me
+			</button>
+    </body>
+</html>

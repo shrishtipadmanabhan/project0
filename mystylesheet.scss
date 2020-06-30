@@ -1,0 +1,55 @@
+$myFont: times new roman;
+$myColor: white;
+$myFontSize: 25px;
+$myMargin: 25px;
+$myTextAlign: left;
+$myBackgroundColor: #333;
+
+
+.font{
+	font: {
+	family: $myFont; 
+	size: $myFontSize;
+	}
+	color: $myColor; 
+	text-align: $myTextAlign;
+	margin-right: $myMargin;
+}
+
+.menubar {
+  overflow: hidden;
+  background-color:$myBackgroundColor ;
+}
+
+.menubar a {
+  float: center;
+  color: $myColor;
+  text-align: center;
+  padding: 65px;
+  text-decoration: none;
+  font-size: 20px; 
+}
+
+ @media(max-width: 480px){
+	 .menubar {
+		float: center;
+		color: $myColor;
+		text-align: center;
+		text-decoration: none;
+		font-size: 5px; 
+		padding-right: 50px;
+		padding-left: 50px;
+		padding:10px;
+	 }
+ }
+
+.menubar a:hover {
+  background-color: #b7410e;
+  color: $myColor;
+}
+
+.menubar a.active {
+  background-color: #b7410e;
+  color: $myColor;
+}
+ 

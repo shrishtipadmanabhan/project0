@@ -23,7 +23,7 @@ Hello, my name is Shrishti Padmanabhan and this is my project. It is a website I
  
  In the 'SCSS stylesheet' I have used multiple "SCSS variables" and have applied the concepts of "SCSS nesting" and "SCSS Inheritance".
  
- Here's the link to the youtube video tutorial - https://www.youtube.com/watch?v=KYlDiUp0428&t=3s
+ 
  
  
  
